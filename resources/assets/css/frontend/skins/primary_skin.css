@@ -1,0 +1,22 @@
+.icon-section{
+     background-color: #128bc6;
+ }
+#bar{
+    background: #128bc6;
+}
+.bg-border{
+    border-left: 3px solid #128bc6;
+}
+.purchae-hed{
+    color: #128bc6;
+}
+.purchase-styl,
+.purchase-styl:hover,
+.purchase-styl:active,
+.purchase-styl:focus {
+    background-color: #128bc6;
+    box-shadow: 0px 2px 0px #2980b9;
+}
+blockquote{
+    border-left: 3px solid #128bc6;
+}

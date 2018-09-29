@@ -1,0 +1,32 @@
+.dp-note{
+    background: #ff931d;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    left: 50%;
+    bottom: 3px;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    position: absolute;
+}
+.calender-content-style{
+    margin-top: 25px;
+}
+
+.flatpickr-calendar {
+    left: -25px;
+}
+
+.flatpickr-calendar.hasWeeks {
+    left: -40px;
+}
+
+.mt-5 {
+    margin-top: 5px;
+}
+
+@media (max-width: 767px) {
+    .pad-0-res {
+        padding: 0;
+    }
+}

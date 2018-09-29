@@ -1,0 +1,54 @@
+.select2-container--default .select2-selection--single {
+    background-color: #fff;
+    border: 1px solid #aaa;
+    border-radius: 2px;
+}
+.select2-container .select2-selection--single {
+    box-sizing: border-box;
+    cursor: pointer;
+    display: block;
+    height: 34px;
+    user-select: none;
+    -webkit-user-select: none;
+}
+.flag {
+    height: 15px;
+    width: 18px;
+}
+
+.ui-datepicker { width: 17em; padding: .2em .2em 0; z-index: 9999 !important; }
+
+#logout {
+    color: inherit;
+}
+
+#title{
+    margin-left: 12px;
+}
+.resize_vertical
+{
+    resize: vertical;
+}
+.content-header-sep {
+    margin-top: 0;
+    border-top: 2px solid #b7b0b0;
+}
+
+.help-block {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    color: #737373;
+}
+.input-group .form-control{
+    z-index:0;
+}
+@media(min-width:320px) and (max-width:768px){
+    .margin_right_left {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .select2.select2-container.select2-container--bootstrap{
+        width:100%;
+    }
+}

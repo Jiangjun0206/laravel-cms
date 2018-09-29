@@ -1,0 +1,8 @@
+/*image overlapping in magification*/
+
+.magnify .magnify {
+    z-index: 2;
+}
+.magnify .magnify-large{
+    z-index: 4;
+}

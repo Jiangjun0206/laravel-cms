@@ -1,0 +1,46 @@
+{
+  "Result":"OK",
+  "Records":[
+    {
+      "PersonId":1,
+      "Name":"Benjamin Button",
+      "Gender":"M",
+      "BirthDate":"2011-25-12",
+      "CityId":1,
+      "RecordDate":"\/Date(1320259705710)\/",
+      "EmailAddress":"Benjamin@gmail.com",
+      "IsActive": true
+    },
+    {
+      "PersonId":2,
+      "Name":"Douglas Adams",
+      "Gender":"M",
+      "BirthDate":"2011-12-05",
+      "CityId":3,
+      "RecordDate":"\/Date(1320259705710)\/",
+      "EmailAddress":"Benjamin@gmail.com",
+      "IsActive": false
+
+    },
+    {
+      "PersonId":3,
+      "Name":"Isaac Asimov",
+      "Gender":"M",
+      "BirthDate":"2011-12-12",
+      "CityId":2,
+      "RecordDate":"\/Date(1320259705710)\/",
+      "EmailAddress":"Benjamin@gmail.com",
+      "IsActive": false
+    },
+    {
+      "PersonId":4,
+      "Name":"Thomas More",
+      "Gender":"F",
+      "BirthDate":"2011-12-12",
+      "CityId":5,
+      "RecordDate":"\/Date(1320259705710)\/",
+      "EmailAddress":"Benjamin@gmail.com",
+      "IsActive": "false"
+    }
+  ]
+}

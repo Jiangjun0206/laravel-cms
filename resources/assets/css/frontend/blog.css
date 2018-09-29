@@ -1,0 +1,138 @@
+/*Blog  custom code*/
+
+.content {
+    margin: 15px 0;
+}
+/* ---------- Featured-post-wide Css ---------- */
+.featured-post-wide {
+    position: relative;
+    margin: 0 0 30px;
+    overflow: hidden;
+}
+/* ---------- //Featured-post-wide Css End ---------- */
+
+.featured-post-wide .featured-text {
+    position: relative;
+    background: #fff;
+    padding: 15px;
+    z-index: 3;
+}
+/* ---------- //Featured-Text Css End---------- */
+/* ---------- Blog Images Css ---------- */
+
+.featured-post-wide img {
+    max-width: 100%;
+}
+
+/* ---------- //Blog Images Css End ---------- */
+.recent_post {
+    margin-top: 0;
+}
+
+.no-border {
+    border: none !important;
+}
+
+/* ---------- Recent post Border Css ---------- */
+.the-box {
+    padding: 15px;
+    margin-bottom: 30px;
+    border: 1px solid #D5DAE0;
+    position: relative;
+    background: white;
+    border-radius: 4px;
+}
+.the-box h3{
+    margin-top: 0;
+}
+.the-box img{
+    width: 50px;
+    height: 50px;
+}
+.recent{
+    margin-top: 10px;
+}
+/* ---------- //Recent post Border Css  End ---------- */
+
+
+.additional-post {
+    padding: 10px 15px 10px 0;
+}
+
+.box {
+    width: 270px;
+}
+.media-heading p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+/* ---------- //Blog Css End ---------- */
+/* ---------- 21 comments ---------- */
+.comments{
+    border-bottom: 1px solid #cccccc;
+    border-top: 1px solid #cccccc;
+    padding: 10px 0;
+    color: #418bca;
+}
+h4 span{
+    font-size: 12px;
+    color: #418bca;
+}
+/* ---------- //21 comments ---------- */
+h2.marl12{
+    margin-left: 12px;
+}
+.martop{
+    margin-top: -6px;
+}
+.marbtm{
+    margin-bottom: 10px;
+}
+.pagination{
+    margin: 0;
+}
+.media{
+    margin-top: 0;
+}
+.tabbable-line > .nav-tabs > li {
+  margin-right: 2px;
+background-color: #fff;
+}
+.tabbable-panel{
+    border:1px solid #ddd;
+}
+.thumbnail h3{
+    margin-top: 5px;
+}
+.summernote_image{
+    width: 300px !important;
+    height: 300px !important;
+    margin-bottom: 10px;
+}
+textarea {
+    resize : vertical;
+}
+a[target]{
+    color: #146fbd;
+}
+@media (min-width:320px) and (max-width:425px){
+    .featured-text.relative-left iframe{
+        width:100%;
+        height:100%;
+    }
+}
+@media (min-width:320px) and (max-width:425px){
+    .thumbnail.featured-post-wide.img iframe{
+        width:100%;
+        height:100%;
+    }
+    .thumbnail.featured-post-wide.img iframe
+
+}
+@media(max-width:768px){
+    .thumbnail.featured-post-wide.img iframe{
+        width:100%;
+    }
+
+
+}

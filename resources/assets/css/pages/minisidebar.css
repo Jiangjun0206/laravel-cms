@@ -1,0 +1,135 @@
+/*====== Css for mini sidebar*/
+body.mini #menu .navigation .menu-icon {
+    text-align: center;
+    font-size: 20px;
+}
+
+body.mini #menu .navigation > li > a {
+    padding: 14px 24px;
+}
+
+body.mini #menu .navigation a {
+    padding: 11px 24px;
+}
+
+body.mini #menu .navigation a.index {
+    padding: 17px 24px 17px 40px;
+}
+
+body.mini .left-side,
+body.mini .sidebar,
+body.mini .menu-dropdown > a,
+body.mini #menu .navigation {
+    width: 80px;
+}
+
+body.mini .right-side {
+    margin-left: 80px;
+}
+
+@media screen and (max-width: 992px) {
+    body.mini .right-side {
+        margin-left: 0;
+    }
+    body.mini .relative .right-side {
+        margin-left: -160px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    body.mini .right-side.strech {
+        margin-left: 0;
+    }
+}
+
+@media screen and (width: 992px) {
+    body.mini .left-side {
+        top: 0;
+    }
+}
+
+/* drop list open on hover */
+
+body.mini .dropdown {
+    position: relative;
+    display: inline-block;
+}
+body.mini .nav_icons{
+    display: none;
+}
+body.mini .menu-dropdown,
+body.mini #menu .navigation > li:not(.menu-dropdown) > a {
+    position: relative;
+    width: 80px;
+}
+
+body.mini #menu .menu-dropdown > ul,
+body.mini #menu .menu-dropdown-open-ul {
+    position: absolute;
+    width: 250px !important;
+    top: 0;
+    right: -250px;
+    z-index: 2;
+    display: none;
+    overflow-y: auto;
+}
+
+body.mini #menu .navigation > li:hover > a {
+    background-color: #eee;
+    color: #33CC99;
+}
+
+body.mini #menu .menu-dropdown:hover > ul,
+body.mini #menu .menu-dropdown:hover > ul.collapse {
+    display: block;
+    height: auto;
+    z-index: 1000;
+    /*background-color: #fff;*/
+    box-shadow: 0 0 15px #CCC;
+}
+
+body.mini #menu .menu-dropdown:hover > a:after {
+    position: absolute;
+    top: 17px;
+    right: 0;
+    width: 0;
+    height: 0;
+    content: "";
+    border-top: 10px solid transparent;
+    border-right: 10px solid #2E576B;
+    border-bottom: 10px solid transparent;
+    border-left: 0;
+}
+
+body.mini #menu .navigation {
+    padding: 4px 0 15px;
+    border-bottom: 0;
+}
+
+body.mini .nav_profile .profile-left {
+    padding: 7px 13px 7px;
+    border: 0;
+}
+
+body.mini #menu>.navigation>li>a {
+    text-align: center;
+}
+
+body.mini #menu .menu-dropdown .sidebarbottom {
+    top: 0;
+    bottom: auto;
+}
+
+body.mini #menu>.navigation>li>a .mm-text,
+body.mini #menu>.navigation>li>a .fa.arrow,
+body.mini .content-profile {
+    display: none !important;
+}
+#menu>.navigation>li>a > .badge{
+
+    float: right;
+    margin-top: 1px;
+    margin-right: 0;
+    font-weight: normal;
+    background-color: #EF6F6C;
+}

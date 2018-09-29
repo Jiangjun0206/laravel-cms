@@ -1,0 +1,42 @@
+.chk-align {
+    padding-right: 10px;
+}
+.chk-label-margin {
+    margin-left: 5px;
+}
+.required {
+    color: red;
+    padding-left: 5px;
+}
+.btn-success:active, .btn-success:focus{
+    background-color: #01BC8C;
+}
+.panel-heading{
+    padding: 1px 15px;
+}
+.div_gnr_rst{
+    padding:15px 15px;
+    text-align: right;
+}
+
+.btn_generate{
+    border-color: transparent;
+    padding-left: 10px;
+}
+.margtop {
+    margin-top: 3px;
+}
+.field_label{
+    font-size: 18px;
+    margin: 4px 0 0 -14px;
+}
+.sweet-alert h2{
+    color: #333;
+    font-size: 20px;
+}
+
+.sweet-alert button {
+    background-color: #01bc8c !important;
+    border-radius: 3px;
+    padding: 6px 30px;
+}

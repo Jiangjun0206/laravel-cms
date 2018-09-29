@@ -1,0 +1,53 @@
+/* ----------- Compare Products  ---------- */
+
+tr td {
+    text-align: center;
+    letter-spacing: 0;
+}
+
+td p {
+    text-align: justify;
+}
+
+.thumbnail>img {
+    margin-top: 10px;
+}
+
+ul {
+    padding-left: 10%;
+}
+
+ul li {
+    text-align: justify;
+}
+
+h3 {
+    color: #418bca;
+    margin-bottom: 15px;
+}
+
+h5 a {
+    color: #418bca !important;
+    padding-bottom: 2%;
+    padding-top: 5px;
+    padding-right: 2%;
+    float: right;
+}
+
+@media(max-width:800px) {
+    td .description {
+        width: 25%;
+        white-space: normal !important;
+    }
+}
+
+#title{
+    margin-left: 15px;
+}
+
+.bg-default th h4{
+    text-align: center;
+}
+.cart-cart{
+    min-height: 570px;
+}

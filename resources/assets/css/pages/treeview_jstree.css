@@ -1,0 +1,33 @@
+.population_tree {
+    padding-top: 16px;
+    min-height: 140px;
+}
+
+#search .form-group {
+    margin-top: 0;
+}
+
+.list-group .list-group-item {
+    display: block;
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+}
+
+.btn-success:not(.btn-link):not(.btn-flat) {
+    margin-left: -15px;
+}
+
+#treeview-expandible,
+#expandible-output,
+#treeview-checkable,
+#checkable-output {
+    margin-top: 23px;
+}
+.btn_search
+{
+    margin-top: 6px;
+}
+.btn_margin_bottom{
+    margin-bottom:5px;
+
+}

@@ -1,0 +1,15 @@
+
+#rootwizard .nav.nav-pills{
+    margin-bottom: 25px;
+}
+.help-block {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.has-error .help-block {
+    color : #EF6F6C;
+}
+.select2{
+    width:100% !important;
+}

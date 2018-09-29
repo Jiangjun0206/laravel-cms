@@ -1,0 +1,30 @@
+.bootstrap-tagsinput .twitter-typeahead .tt-menu.tt-open{
+
+    z-index: 1000;
+    min-width: 160px;
+
+    margin: 2px 0 0;
+    list-style: none;
+    font-size: 14px;
+    background-color: #ffffff;
+    /*border: 1px solid #cccccc;*/
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+    background-clip: padding-box;
+    cursor: pointer;
+}
+.bootstrap-tagsinput .twitter-typeahead .tt-menu.tt-open .tt-selectable:hover{
+    background-color: #428bca;
+    color: #fff;
+}
+.tt-suggestion{
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: normal;
+    line-height: 1.428571429;
+    color: #333333;
+    white-space: nowrap;
+}

@@ -1,0 +1,108 @@
+
+.form-position.top {
+    margin-top    : 0;
+    margin-bottom : 42px;
+    border-top    : 0;
+}
+.form-position {
+    margin : 0;
+
+}
+.pad-top20 {
+    padding-top : 24px !important;
+}
+.pad-top40 {
+    padding-top : 40px !important;
+}
+.form-bordered .form-group > div {
+    padding     : 15px;
+    border-left : 1px solid #efefef;
+}
+.form-bordered .form-group {
+    margin        : 0;
+    border-bottom : 1px solid #efefef;
+}
+.border {
+    /* margin: 0; */
+    padding : 0;
+}
+.form-bordered .control-label {
+    padding-top   : 24px !important;
+    margin-bottom : 0;
+    text-align    : right;
+}
+.form-bordered-row .form-group {
+    margin        : 0;
+    border-bottom : 1px solid #efefef;
+}
+.form-bordered-row .control-label {
+    padding-top   : 24px !important;
+    margin-bottom : 0;
+    text-align    : right;
+}
+.form-bordered-row .form-group > div {
+    padding : 15px;
+
+}
+.mar-top {
+    margin-top : 10px !important;
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+    color               : #555;
+    background-color    : #EBEBEB;
+    /* border: 1px solid #ddd; */
+    border-top          : 3px solid #418bca;
+    border-bottom-color : transparent;
+    cursor              : default;
+    margin-top          : -2px;
+}
+.striped-col {
+    background-color : #f9f9f9;
+
+}
+.input-group-sm > .input-group-addon, .input-group-sm > .input-group-btn > .btn {
+    height    : 29px;
+    padding   : 0 10px;
+    font-size : 12px;
+}
+.input-group-addon {
+    padding : 5px 12px;
+}
+.input-group-lg > .input-group-addon, .input-group-lg > .input-group-btn > .btn {
+    padding : 9px 16px;
+}
+.has-success .checkbox, .has-success .checkbox-inline, .has-success.checkbox-inline label, .has-success.checkbox label, .has-success .control-label, .has-success .help-block, .has-success .radio, .has-success .radio-inline, .has-success.radio-inline label, .has-success.radio label {
+    color : #00bc8c;
+}
+.has-warning .checkbox, .has-warning .checkbox-inline, .has-warning.checkbox-inline label, .has-warning.checkbox label, .has-warning .control-label, .has-warning .help-block, .has-warning .radio, .has-warning .radio-inline, .has-warning.radio-inline label, .has-warning.radio label {
+    color : #f89a14;
+}
+.has-error .checkbox, .has-error .checkbox-inline, .has-error.checkbox-inline label, .has-error.checkbox label, .has-error .control-label, .has-error .help-block, .has-error .radio, .has-error .radio-inline, .has-error.radio-inline label, .has-error.radio label {
+    color : #ef6f6c;
+}
+.has-success .form-control-feedback {
+    color : #00bc8c;
+}
+.has-warning .form-control-feedback {
+    color : #f89a14;
+}
+.has-error .form-control-feedback {
+    color : #ef6f6c;
+}
+ .has-success .input-group-addon {
+    border-color : #00bc8c;
+}
+ .has-error .input-group-addon {
+    border-color : #ef6f6c;
+}
+.select_margin select{
+    margin-top:5px;
+}
+.btn_margin_top{
+    margin-top:5px;
+}
+@media (min-width:320px) and (max-width:1024px){
+    .checkbox-inline+.checkbox-inline, .radio-inline+.radio-inline{
+        margin-left:0px;
+    }
+}

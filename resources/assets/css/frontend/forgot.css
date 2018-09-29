@@ -1,0 +1,114 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:600,400);
+.text-primary{
+    color:#128bc6 !important;
+}
+html{
+    height:100%;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-image:url('../../images/background.png');
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    width:100%;
+    height:100%;
+    padding-top:10%;
+
+}
+.box{
+    background: #ffffff;
+    border:1px solid #ddd;
+    width:400px;
+    text-align:center;
+    padding:10px 20px;
+    border-top:5px solid #128bc6;
+    margin:auto;
+}
+.box img{
+    margin: 5px auto;
+}
+.box h3{
+    margin-top:3px;
+}
+.btn-primary{
+    background-color: #128bc6 !important;
+}
+
+input{
+    border-radius:0 !important;
+}
+input[type="submit"]{
+    margin-bottom:10px;
+    border:none;
+}
+
+
+.animation{
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+}
+
+@-webkit-keyframes flipInX {
+    0% {
+        -webkit-transform: perspective(400px) rotateX(90deg);
+        opacity: 0;
+    }
+    40% {
+        -webkit-transform: perspective(400px) rotateX(-10deg);
+    }
+    70% {
+        -webkit-transform: perspective(400px) rotateX(10deg);
+    }
+    100% {
+        -webkit-transform: perspective(400px) rotateX(0deg);
+        opacity: 1;
+    }
+}
+@keyframes flipInX {
+    0% {
+        transform: perspective(400px) rotateX(90deg);
+        opacity: 0;
+    }
+    40% {
+        transform: perspective(400px) rotateX(-10deg);
+    }
+    70% {
+        transform: perspective(400px) rotateX(10deg);
+    }
+    100% {
+        transform: perspective(400px) rotateX(0deg);
+        opacity: 1;
+    }
+}
+.flipInX {
+    -webkit-backface-visibility: visible !important;
+    -webkit-animation-name: flipInX;
+    backface-visibility: visible !important;
+    animation-name: flipInX;
+}
+.alert-success {
+    color: #fff;
+    background-color: #22ddad !important;
+    border-color: #acf6ac !important;
+}
+.alert-danger {
+    color: #fff;
+    background-color: #ff908d !important;
+    border-color: #EF6F6C !important;
+}
+.help-block{
+    color: #EF6F6C !important;
+    float: left;
+}
+.mt-15{
+    margin-top: 15px;
+}
+@media (min-width:320px) and (max-width:425px){
+    .box{
+        width:100% !important;
+    }
+}

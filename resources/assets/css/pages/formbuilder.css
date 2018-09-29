@@ -1,0 +1,19 @@
+body{
+    padding-top:0;
+    padding-bottom:0;
+    overflow:hidden;
+    position: inherit;
+}
+
+#target fieldset{
+    padding-bottom: 200px;
+}
+textarea.form-control{
+    resize: none;
+}
+@media (min-width:320px) and (max-width:425px){
+    #formtabs li:nth-child(3),#formtabs li:nth-child(5){
+        clear:both;
+    }
+
+}

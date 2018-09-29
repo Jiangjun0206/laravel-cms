@@ -1,0 +1,26 @@
+.toggler-left {
+    float : left;
+    width : 80%;
+}
+.toggler-right {
+    float : right;
+    width : 20%;
+}
+.demo-container {
+    background : #fff;
+}
+.visitors-bottom {
+    height : 150px;
+}
+.animation-chart {
+    width  : 100%;
+    height : 300px;
+}
+.panel-primary > .panel-heading {
+    background-color : #418bca;
+    color            : #fff;
+    border-color     : #E7E1E8;
+}
+.legendLabel {
+    padding-left :7px;
+}

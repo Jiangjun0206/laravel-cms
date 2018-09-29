@@ -1,0 +1,40 @@
+
+.demo-container {
+    width   : 99%;
+    height  : 350px;
+    padding : 0;
+}
+.demo-placeholder {
+    width       : 100%;
+    height      : 100%;
+    font-size   : 14px;
+    line-height : 1.2em;
+}
+.demo-placeholder1 {
+    height : 300px;
+}
+.legend table {
+    border-spacing : 5px;
+}
+.panel-primary > .panel-heading {
+    background-color : #fff;
+    border-color     : #fff;
+}
+.panel.panel-primary > .panel-heading {
+    background-color : #418bca;
+    color            : #fff;
+}
+.legendLabel {
+    padding-left : 8px;
+}
+.c3-chart-arc text {
+    font-family : 'Lato', sans-serif;
+}
+#morris-chart text {
+    font-family : 'Lato', sans-serif !important;
+}
+@media (min-width:320px) and (max-width:1024px){
+    .demo-container{
+        height:auto !important;
+    }
+}

@@ -1,0 +1,21 @@
+body
+{
+    margin:0;
+}
+.responsive_map {
+    display: block;
+    width: 95%;
+    margin: 0 auto;
+
+}
+.mt-15{
+    margin-top: 15px;
+}
+@media (min-width:320px) and (max-width:425px){
+    .search_margin{
+        margin-top:10px;
+    }
+    .btn_margin{
+        margin-top:10px;
+    }
+}

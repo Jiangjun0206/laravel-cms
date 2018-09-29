@@ -1,0 +1,37 @@
+body{
+    overflow: -webkit-paged-x;
+}
+body > .header{
+    position: fixed !important;
+    height:50px;
+}
+.wrapper{
+    margin-top: 50px;
+    display: table;
+    overflow-x: hidden;
+    width: 100%;
+    max-width: 100%;
+    table-layout: fixed;
+    /*min-height: calc(100vh - 102px);*/
+}
+.left-side{
+    position: fixed;
+    top: 50px;
+    left: 0;
+    max-height: 100%;
+    height: calc(100vh - 50px);
+    min-height: calc(100vh - 50px) !important;
+    overflow-y: auto;
+}
+.right-side{
+    display: block !important;
+    width: auto !important;
+    margin-left: 250px;
+}
+
+.sidebar{
+    width:100%;
+}
+body.left-hidden aside.right-side {
+    margin-left: 0;
+}
